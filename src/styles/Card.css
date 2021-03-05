@@ -1,0 +1,32 @@
+
+
+.card-main {
+    width: 300px;
+    height: 400px;
+    border: rgb(199, 160, 160) solid 2px;
+    border-radius: 5px;
+    margin: 15px;
+
+}
+
+.interaction-bar{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.card-main:hover{
+    border-color: lightgoldenrodyellow;
+    transition: 1s;
+}
+
+.card-title{
+    font-size: medium;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 1em;
+}
+
+.camt-pic{
+    max-width: 250px;
+    max-height: 200px;
+}
