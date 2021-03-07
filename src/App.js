@@ -17,7 +17,7 @@ function App() {
 
 
   const fetchCat = () => {
-    axios.get('http://aws.random.cat/meow')
+    axios.get('https://aws.random.cat/meow')
     .then(res => {
       const cat = res.data;
       setImage(cat)
